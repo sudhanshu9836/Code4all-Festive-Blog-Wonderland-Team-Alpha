@@ -1,0 +1,58 @@
+
+/* Boilerplate */
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* Universal Selector */
+
+*{
+    background-color: #191919;
+    color: #fff;
+}
+
+/* Header styles */
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    background: transparent;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    background: transparent;
+}
+.nav{
+    background: transparent;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 30px;
+    margin:  50px;
+    background: transparent;
+}
+.nav a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+/* Main Styles */
+
+#main-img{
+    width: 100%;
+    height: 720px;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+}
