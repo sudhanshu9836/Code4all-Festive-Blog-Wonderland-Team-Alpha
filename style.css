@@ -1,5 +1,4 @@
-/* Boilerplate */
-html,
+* Boilerplate */ html,
 body {
   height: 100%;
   width: 100%;
@@ -59,4 +58,50 @@ header {
   position: relative;
   bottom: 100px;
   z-index: 1;
+}
+/* about */
+.about_heading {
+  position: relative;
+  left: 35%;
+  font-weight: 700;
+  font-size: 5rem;
+}
+.about {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10vh;
+}
+.about p {
+  font-size: 2rem;
+  padding-bottom: 1vh;
+}
+h3 {
+  font-size: 4rem;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.abtcontent {
+  display: flex;
+  flex-direction: row;
+}
+.about img {
+  height: 40vh;
+  background: transparent;
+  padding-left: 5vw;
+}
+@keyframes underline {
+  0% {
+    text-decoration: none;
+  }
+  25% {
+    text-decoration: overline white 1px;
+  }
+  50% {
+    text-decoration: line-through white 2px;
+  }
+  100% {
+    text-decoration: underline white 3px;
+  }
 }
