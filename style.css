@@ -56,3 +56,22 @@ header{
     bottom: 100px;
     z-index: 1;
 }
+
+.section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.section-1 p{
+    text-align: justify;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.para2, .para1{
+    width: 300px;
+}
+.section-1 h1{
+    font-weight: 400;
+}
+.section-1 span{
+    font-weight: 700;
+}
