@@ -103,26 +103,39 @@ h3 {
   width: 600px;
 }
 .about img {
-  height: 40vh;
+  height: 50vh;
+  width: 90vh;
   background: transparent;
   padding-left: 5vw;
 }
 .contact {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 10vh;
 }
 .contactimage {
-  height: 40vh;
   background: transparent;
   padding-left: 5vw;
 }
+.contactimage img{
+  height: 40vh;
+  width: 40vh;
+}
+.contactContent a{
+  text-decoration: none;
+  color: #a8a4a4;
+}
+.contactContent i{
+  margin: 30px;
+  font-size: 2rem;
+}
+
 .contactContent{
   padding-left: 4vw;
 }
 .contactContent li{
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 .contactContent a{
