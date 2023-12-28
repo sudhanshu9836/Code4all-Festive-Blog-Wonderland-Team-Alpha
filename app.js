@@ -43,3 +43,14 @@ gsap.from("#contact-list",{
         scroller: "body"       
     }
 });
+
+//
+
+snowFall.snow(document.querySelector('body'),{
+    round: true,
+    minSize: 1,
+    maxSize: 6,
+    shadow: true,
+    flakeCount: 150,
+    flakeColor: "#c7dfea"
+})
