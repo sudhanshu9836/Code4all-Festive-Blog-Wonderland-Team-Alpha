@@ -7,4 +7,14 @@ gsap.from(".para1, .para2",{
         trigger: ".para1, .para2",
         scroller: "body"       
     }
+});
+
+gsap.from(".abtcontent",{
+    x:350,
+    duration: 2.5,
+    opacity: 0,
+    scrollTrigger:{
+        trigger: ".abtcontent",
+        scroller: "body"       
+    }
 })

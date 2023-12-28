@@ -59,32 +59,48 @@ header {
   bottom: 100px;
   z-index: 1;
 }
+.section-1{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+.section-1 p{
+    text-align: justify;
+    margin-top: 30px;
+    
+  }
+  .para1, .para2{
+    width: 300px;
+    line-height: 1.8;
+}
+.section-1 span{
+  font-weight: 700;
+}
+
 /* about */
 .about_heading {
-  position: relative;
-  left: 35%;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 3rem;
+  text-align: center;
 }
 .about {
   display: flex;
-  align-items: baseline;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
   padding: 10vh;
 }
 .about p {
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding-bottom: 1vh;
+  line-height: 1.8;
+
 }
 h3 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   padding-top: 2vh;
   padding-bottom: 2vh;
 }
 .abtcontent {
-  display: flex;
-  flex-direction: row;
+  width: 600px;
 }
 .about img {
   height: 40vh;
