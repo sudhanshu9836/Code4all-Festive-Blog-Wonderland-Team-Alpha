@@ -59,21 +59,21 @@ header {
   bottom: 100px;
   z-index: 1;
 }
-.section-1{
-  display:flex;
+.section-1 {
+  display: flex;
   justify-content: space-around;
   margin-bottom: 100px;
 }
-.section-1 p{
-    text-align: justify;
-    margin-top: 30px;
-    
-  }
-  .para1, .para2{
-    width: 300px;
-    line-height: 1.8;
+.section-1 p {
+  text-align: justify;
+  margin-top: 30px;
 }
-.section-1 span{
+.para1,
+.para2 {
+  width: 300px;
+  line-height: 1.8;
+}
+.section-1 span {
   font-weight: 700;
 }
 
@@ -92,7 +92,6 @@ header {
   font-size: 1.6rem;
   padding-bottom: 1vh;
   line-height: 1.8;
-
 }
 h3 {
   font-size: 2.5rem;
@@ -100,12 +99,38 @@ h3 {
   padding-bottom: 2vh;
 }
 .abtcontent {
+  padding-left: 5vw;
   width: 600px;
 }
 .about img {
   height: 40vh;
   background: transparent;
   padding-left: 5vw;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10vh;
+}
+.contactimage {
+  height: 40vh;
+  background: transparent;
+  padding-left: 5vw;
+}
+.contactContent{
+  padding-left: 4vw;
+}
+.contactContent li{
+  font-size: 2rem;
+  padding: 1rem;
+}
+.contactContent a{
+  text-decoration: none;
+  color: #a8a4a4;
+}
+.contactContent a:hover{
+  color: #fff;
 }
 @keyframes underline {
   0% {
