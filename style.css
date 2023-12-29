@@ -108,6 +108,34 @@ h3 {
   background: transparent;
   padding-left: 5vw;
 }
+/* Article styles */
+
+.article-heading{
+  text-align: center;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 200px;
+}
+
+.article{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: auto;
+  height: 100px;
+  margin-bottom: 300px;
+}
+.article-p{
+  height: 300px;
+  width: 450px;
+  margin-left: 100px;
+  line-height: 2.5;
+  overflow: scroll;
+}
+.article-p::-webkit-scrollbar{
+  width: 0;
+}
+/* Contact styles */
 .contact {
   display: flex;
   align-items: center;

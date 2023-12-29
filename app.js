@@ -12,6 +12,9 @@ document.getElementById("aboutLink").addEventListener("click", function(){
 document.getElementById("contactLink").addEventListener("click", function(){
     scroll("contact");
 })
+document.getElementById("articleLink").addEventListener("click", function(){
+    scroll("article");
+})
 
 //Animations
 gsap.from(".para1, .para2",{
@@ -53,4 +56,14 @@ snowFall.snow(document.querySelector('body'),{
     shadow: true,
     flakeCount: 150,
     flakeColor: "#c7dfea"
+})
+
+gsap.from(".article h2",{
+    y: 50,
+    duration: 1,
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".article h2",
+        scroller: "body"
+    }
 })
