@@ -196,7 +196,7 @@ h3 {
     text-decoration: underline white 3px;
   }
 }
-@media (max-width:600px) {
+@media (max-width:540px) {
   .article{
     height: 12vmin;
     width: 130%;
@@ -223,4 +223,37 @@ h3 {
   width: 150%;
   height: 100vmin;
 }
+}
+@media (max-width:1204px) {
+  .article{
+    height: 12vmin;
+    width: 130%;
+    margin-bottom: 36vmin;
+  }
+  .about img {
+    height: 70vmin;
+    width: 90vmin;
+  }
+  #i1{
+    display: none;
+  }
+  .para1,
+  .para2 {
+  /* width: 50vmin; */
+  width: 150%;
+  line-height: 1.8;
+  padding: 5vmin;
+}
+.para1{
+  padding-left: 10px;
+}
+#main-img {
+  width: 150%;
+  height: 100vmin;
+}
+.contactimage {
+  width: 100%;
+  padding-left: 10vmax;
+}
+
 }
