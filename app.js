@@ -70,13 +70,14 @@ gsap.from(".card",{
 
 document.querySelector("#card1").addEventListener("click", function(){
     window.location.href = "blog1.html";
-})
+
+});
 document.querySelector("#card2").addEventListener("click", function(){
     window.location.href = "blog2.html";
-})
+});
 document.querySelector("#card3").addEventListener("click", function(){
-    window.location.href = "blog3.html";
-})
+    window.location.href = "blog3.html";  
+});
 
 //Snowfall Animation
 
