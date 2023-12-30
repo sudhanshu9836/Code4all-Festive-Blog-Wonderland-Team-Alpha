@@ -15,6 +15,9 @@ document.getElementById("contactLink").addEventListener("click", function(){
 document.getElementById("articleLink").addEventListener("click", function(){
     scroll("article");
 })
+document.getElementById("blogLink").addEventListener("click", function(){
+    scroll("blog");
+})
 
 //Animations
 gsap.from(".para1, .para2",{
