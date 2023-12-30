@@ -27,6 +27,12 @@ h1{
     padding: 5vmin;
     text-decoration: underline 2px white;
 }
+span{
+    font-size: 2rem;
+    /* padding: 5vmin; */
+    text-decoration: underline 2px white;
+    font-weight: 700;
+}
 p{
     font-size: 1.6rem;
     padding-bottom: 1vmin;
