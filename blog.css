@@ -20,6 +20,7 @@
     color: #191919;
     font-size: 1rem;
     border-radius: 10%;
+    cursor: pointer;
 }
 h1{
     font-size: 4rem;

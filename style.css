@@ -143,6 +143,30 @@ h3 {
 .article-p::-webkit-scrollbar{
   width: 0;
 }
+/* Blog syles */
+.blog-heading{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.blog{
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.card:hover{
+  height: 250px;
+  width: 250px;
+}
 /* Contact styles */
 .contact {
   display: flex;

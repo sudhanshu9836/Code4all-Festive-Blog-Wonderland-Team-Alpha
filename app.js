@@ -47,17 +47,6 @@ gsap.from("#contact-list",{
     }
 });
 
-//
-
-snowFall.snow(document.querySelector('body'),{
-    round: true,
-    minSize: 1,
-    maxSize: 6,
-    shadow: true,
-    flakeCount: 150,
-    flakeColor: "#c7dfea"
-})
-
 gsap.from(".article h2",{
     y: 50,
     duration: 1,
@@ -66,4 +55,36 @@ gsap.from(".article h2",{
         trigger: ".article h2",
         scroller: "body"
     }
+})
+gsap.from(".card",{
+    y: 200,
+    duration: 1,
+    opacity: 0,
+    scrollTrigger: {
+        trigger: ".card",
+        scroller: "body"
+    }
+}
+)
+//Blogs Navigation
+
+document.querySelector("#card1").addEventListener("click", function(){
+    window.location.href = "blog1.html";
+})
+document.querySelector("#card2").addEventListener("click", function(){
+    window.location.href = "blog2.html";
+})
+document.querySelector("#card3").addEventListener("click", function(){
+    window.location.href = "blog3.html";
+})
+
+//Snowfall Animation
+
+snowFall.snow(document.querySelector('body'),{
+    round: true,
+    minSize: 1,
+    maxSize: 6,
+    shadow: true,
+    flakeCount: 150,
+    flakeColor: "#c7dfea"
 })
